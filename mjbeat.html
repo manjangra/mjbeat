@@ -691,7 +691,7 @@
         }
         setInterval(() => { const next = (currentSlide + 1) % slides.length; goToSlide(next); }, 4000);
 
-        // Smooth scroll
+        // Smooth scroll 
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 const target = document.querySelector(this.getAttribute('href'));
